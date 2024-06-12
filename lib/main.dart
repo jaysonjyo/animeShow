@@ -1,4 +1,5 @@
 import 'package:anime/Ui/first.dart';
+import 'package:anime/Ui/slash.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
                 colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
                 useMaterial3: true,
               ),
-              home: Screen1(),
+              home: Screen(),
             ),
           );
         }
